@@ -47,7 +47,7 @@ function schoolTimeCalc(){
                                     if(time < eigth){
                                         alert("Your in eigth period");
                                     } else if(time > eigth){
-                                        alert("Your not even in school");
+                                        alert("Your not even in school, its over");
                                     }
                                 }
                             }
