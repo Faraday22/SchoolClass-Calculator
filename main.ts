@@ -1,10 +1,9 @@
-// This is v.1 
 // Don't even mention the amount
 // of nested if's
 
 
 function schoolTimeCalc(){
-    var startTime = 8:47;
+    var startTime = 8.47;
     var time : any = null;
     var advisory = 9.11;
     var second = 9.57;
