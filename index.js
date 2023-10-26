@@ -15,7 +15,7 @@ const periods = [
   { time: 15.40, name: "eighth period" }
 ];
 
-function timeUntilDone(timeLeft: number) {
+function timeUntilDone(timeLeft) {
   timeLeft = Math.round(timeLeft * 100) / 100;
   if (timeLeft > 1) {
     alert("You have " + timeLeft + " hours left");
