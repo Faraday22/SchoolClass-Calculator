@@ -1,13 +1,3 @@
-button {
-  align:center;
-  width:20%;
-  height:70%;
-  font-size:30;
-  font-family:Monospace;
-  background-color:black;
-  border-color:gold;
-  color:gold;
-}
 body{
   align:center;
   background-color:#5f82c9;
