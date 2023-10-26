@@ -42,5 +42,3 @@ function schoolTimeCalc() {
     alert("You are not even in school, it's over");
   }
 }
-
-schoolTimeCalc();
