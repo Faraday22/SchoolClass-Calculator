@@ -18,9 +18,9 @@ const periods = [
 function timeUntilDone(timeLeft: number) {
   timeLeft = Math.round(timeLeft * 100) / 100;
   if (timeLeft > 1) {
-    console.log("You have " + timeLeft + " hours left");
+    alert("You have " + timeLeft + " hours left");
   } else {
-    console.log("You have " + timeLeft + " minutes left");
+    alert("You have " + timeLeft + " minutes left");
   }
 }
 
