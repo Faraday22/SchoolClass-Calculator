@@ -1,20 +1,57 @@
+.topbar{
+  color:white;
+  margin: 0 auto;
+  position:center;
+  font-size:30px;
+  text-indent:15px;
+}
+
+head{
+  color:white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 button {
   align:center;
   width:20%;
   height:70%;
   font-size:30;
-  font-family:Monospace;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
   background-color:black;
   border-color:gold;
   color:gold;
 }
 body{
   align:center;
-  background-color:#5f82c9;
-  text-color:black;
+  background-color:#a9bab2;
+  color:black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 ol {
+  border-color:black;
   align:center;
   border-style:double;
   width:35%;
+}
+
+#textUnderLineThing{
+  border-color:black;
+}
+
+
+/*Links at top of screen*/
+a:link{
+  color:white;
+  text-decoration:none;
+}
+a:visited{
+  color:white;
+  text-decoration:none;
+}
+a:hover{
+  color:black;
+}
+a:active{
+  color:white;
 }
