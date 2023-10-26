@@ -2,6 +2,9 @@
 A tool to find which period
 your in at school :D
 
+The link is:
+https://faraday22.github.io/SchoolClass-Calculator/
+
 # How to use
 At the bottom of the website you'll see
 a button, once you click it, it will
