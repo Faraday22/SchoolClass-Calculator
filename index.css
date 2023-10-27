@@ -1,3 +1,4 @@
+/*All the links and stuff*/
 .topbar{
   color:white;
   margin: 0 auto;
@@ -30,13 +31,14 @@ body{
   color:black;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
+/*Styles the text boxes*/
 ol {
   border-color:black;
   align:center;
   border-style:double;
   width:35%;
 }
-
+/*Black bar that seperated text or underneath links*/
 #textUnderLineThing{
   border-color:black;
 }
@@ -56,4 +58,10 @@ a:hover{
 }
 a:active{
   color:white;
+}
+
+/*Credit Link at bottom of screen*/
+.CreditsLink{
+  position: center;
+  font-size:30;
 }
