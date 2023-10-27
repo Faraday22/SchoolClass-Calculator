@@ -62,10 +62,8 @@ a:active{
 
 /*Credit Link at bottom of screen*/
 .CreditsLink{
-  /*copied code from topbar to center text*/
-  color:white;
-  margin: 0 auto;
   position:center;
   font-size:30px;
   text-indent:15px;
+  text-align:center;
 }
