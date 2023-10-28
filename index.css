@@ -31,6 +31,47 @@ body{
   color:black;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+/*Dark theme(dark mode) if thats prefered*/
+@media (prefers-color-scheme: dark){
+  .topbar{
+    color:black;
+  }
+  head{
+    color:black;
+  }
+  
+  body{
+    background-color:#758575;
+    color:black;
+  }
+  ol{
+    color:white;
+  }
+
+  a:link{
+    color:black;
+    text-decoration:none;
+  }
+  a:visited{
+    color:black;
+    text-decoration:none;
+  }
+  a:hover{
+    color:white;
+  }
+  a:active{
+    color:dark;
+  }
+
+  #textUnderLineThing{
+    border-color:black;
+  }
+
+}
+
+
+
 /*Styles the text boxes*/
 ol {
   border-color:black;
