@@ -2,7 +2,6 @@ var startTime = 8.47;
 var date = new Date();
 var currentTime = date.getHours() + date.getMinutes() / 100;
 
-
 const periods = [
   { time: 9.11, name: "advisory" },
   { time: 9.57, name: "second period" },
@@ -17,10 +16,10 @@ const periods = [
 
 function timeUntilDone(timeLeft) {
   timeLeft = Math.round(timeLeft * 100) / 100;
-  if (timeLeft > 1) {
+  if (timeLeft >= 1) {
     alert("You have " + timeLeft + " hours left");
   } else {
-    alert("You have " + timeLeft + " minutes left");
+    alert("You have " + timeLeft * 60 + " minutes left");
   }
 }
 
