@@ -5,7 +5,7 @@
   position:center;
   font-size:30px;
   text-indent:15px;
-  font-family: JetBrains Mono;
+  font-family: JetBrains Mono Nerd;
 }
 
 head{
@@ -109,5 +109,5 @@ a:active{
   text-indent:15px;
   text-align:center;
   right:30%;
-  font-family:JetBrains Mono;
+  font-family:JetBrains, Mono;
 }
