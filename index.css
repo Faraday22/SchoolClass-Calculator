@@ -10,7 +10,7 @@
 
 head{
   color:white;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:JetBrains Mono;
 }
 
 button {
@@ -18,7 +18,7 @@ button {
   width:20%;
   height:70%;
   font-size:30;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: JetBrains Mono;
   font-weight: bold;
   background-color:black;
   border-color:gold;
@@ -30,7 +30,7 @@ body{
   align:center;
   background-color:#a9bab2;
   color:black;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: JetBrains Mono;
 }
 
 /*Dark theme(dark mode) if thats prefered*/
