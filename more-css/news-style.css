@@ -1,5 +1,77 @@
+head{
+    font-family: JetBrains Mono;
+}
+
+body{
+    font-family: JetBrains Mono;
+}
+
+/*All the links and stuff*/
+.topbar{
+    color:white;
+    margin: 0 auto;
+    position:center;
+    font-size:30px;
+    text-indent:15px;
+    font-family: JetBrains Mono;
+  }
+
 .Text-Body{
     border-style:inset;
-    font-family: JetBrains Mono;
     text-align: left;
 }
+
+
+/*Links at top of screen*/
+a:link{
+    color:white;
+    text-decoration:none;
+  }
+  a:visited{
+    color:white;
+    text-decoration:none;
+  }
+  a:hover{
+    color:black;
+  }
+  a:active{
+    color:white;
+  }
+
+/*Dark theme(dark mode) if thats prefered*/
+@media (prefers-color-scheme: dark){
+    .topbar{
+      color:black;
+    }
+    head{
+      color:black;
+    }
+    
+    body{
+      background-color:#758575;
+      color:black;
+    }
+    ol{
+      color:white;
+    }
+  
+    a:link{
+      color:black;
+      text-decoration:none;
+    }
+    a:visited{
+      color:black;
+      text-decoration:none;
+    }
+    a:hover{
+      color:white;
+    }
+    a:active{
+      color:dark;
+    }
+  
+    #textUnderLineThing{
+      border-color:black;
+    }
+  
+  }
