@@ -24,6 +24,8 @@ body{
 
 .Text-Body{
     border-style:inset;
+    
+    border-color:darkgreen;
     text-align: left;
     color:white;
 }
