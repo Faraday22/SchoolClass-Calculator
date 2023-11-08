@@ -22,28 +22,28 @@ const periods = [
 function timeUntilDone(timeLeft) {
   timeLeft = Math.round(timeLeft * 100) / 100;
   if (timeLeft >= 1) {
-    alert("You have " + timeLeft + " hours left");
+    return timeLeft + " hours";
   } else {
     var minutesLeft = Math.round(timeLeft * 60);
-    alert("You have " + minutesLeft + " minutes left");
+    return minutesLeft + " minutes";
   }
 }
 
 function schoolTimeCalc() {
   if (currentTime < startTime) {
-    alert("School hasn't started yet");
-    return;
+    return "School hasn't started yet";
   }
 
   for (let i = 0; i < periods.length; i++) {
     if (currentTime < periods[i].time) {
-      alert("You are in " + periods[i].name);
-      timeUntilDone(periods[i].time - currentTime);
-      break;
+      return "You are in " + periods[i].name + ". " + timeUntilDone(periods[i].time - currentTime) + " left.";
     }
   }
 
   if (currentTime >= periods[periods.length - 1].time) {
-    alert("You are not even in school, it's over");
+    return "You are not even in school, it's over";
   }
 }
+
+
+
