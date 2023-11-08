@@ -33,7 +33,7 @@
     <!-- at bottom of page area to submit information -->
     <?php 
     //
-    // Insert Code for info
+    echo("test");
     // Submittion Here
     //
     ?>
