@@ -9,7 +9,7 @@ h2{
 
 body{
     font-family: JetBrains Mono;
-    background-color:#a9bab2;
+    background-color:#758575;
 }
 
 /*All the links and stuff*/
@@ -24,7 +24,7 @@ body{
 
 .Text-Body{
     border-style:inset;
-    
+    /*dark green is a filler*/
     border-color:darkgreen;
     text-align: left;
     color:white;
