@@ -24,7 +24,6 @@ body{
 
 .Text-Body{
     border-style:inset;
-    border-color:#4f584f;
     text-align: left;
     color:white;
 }
@@ -48,9 +47,6 @@ a:link{
 
 /*Dark theme(dark mode) if thats prefered*/
 @media (prefers-color-scheme: dark){
-    .topbar{
-      color:black;
-    }
     head{
       color:black;
     }
