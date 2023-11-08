@@ -5,7 +5,7 @@
   
   
   <!-- Update when new css file is made -->
-  <link rel="stylesheet" href="../index.css"/>
+  <link rel="stylesheet" href="../more-css/news-style.css"/>
   
   
   
@@ -18,6 +18,8 @@
           <th><a href="https://faraday22.github.io/SchoolClass-Calculator/">Home</a></th>
           <th>|</th>
           <th><a href="https://github.com/Faraday22/SchoolClass-Calculator">Github</a></th>
+          <th>|</th>
+          <th><a href="https://faraday22.github.io/SchoolClass-Calculator/more-html/news.php">News</a></th>
       </tr></table>
       <hr id="textUnderLineThing">
       <br>
@@ -26,8 +28,8 @@
     
     <h2>News</h2>
     <hr id="textUnderLineThing">
-    <!-- Code for new pharagraph / where info will be listed -->
-    <!-- make have a border that goes into the background in a darker shade too so new css file for this page -->
+    
+    <p class="Text-Body";>Baguette</p>
 
 
     <!-- at bottom of page area to submit information -->
