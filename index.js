@@ -1,3 +1,6 @@
+// With the power of chat gpt 
+// this button will hopefully work!
+
 var startTime = 8.45; // Updated start time to 8.45 in the 24-hour format
 
 var date = new Date();
