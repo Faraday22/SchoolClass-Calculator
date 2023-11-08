@@ -45,32 +45,4 @@ a:link{
     color:white;
   }
 
-/*Dark theme(dark mode) if thats prefered*/
-@media (prefers-color-scheme: dark){
-    head{
-      color:black;
-    }
-    body{
-      background-color:#758575;
-    }
-    
-    a:link{
-      color:black;
-      text-decoration:none;
-    }
-    a:visited{
-      color:black;
-      text-decoration:none;
-    }
-    a:hover{
-      color:white;
-    }
-    a:active{
-      color:dark;
-    }
-  
-    #textUnderLineThing{
-      border-color:black;
-    }
-  
-  }
+/*
