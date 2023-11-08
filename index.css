@@ -75,7 +75,6 @@ body{
 /*Styles the text boxes*/
 ol {
   border-color:black;
-  align:center;
   border-style:double;
   width:35%;
 }
