@@ -1,6 +1,11 @@
-var startTime = 8.47;
+var startTime = 8.45; // Updated start time to 8.45 in the 24-hour format
+
 var date = new Date();
-var currentTime = date.getHours() + date.getMinutes() / 100;
+var hours = date.getHours();
+var minutes = date.getMinutes();
+var amOrPm = hours >= 12 ? 'PM' : 'AM';
+hours = hours % 12 || 12; // Convert hours to 12-hour format
+var currentTime = hours + minutes / 100;
 
 const periods = [
   { time: 9.11, name: "advisory" },
@@ -19,7 +24,8 @@ function timeUntilDone(timeLeft) {
   if (timeLeft >= 1) {
     alert("You have " + timeLeft + " hours left");
   } else {
-    alert("You have " + timeLeft * 60 + " minutes left");
+    var minutesLeft = Math.round(timeLeft * 60);
+    alert("You have " + minutesLeft + " minutes left");
   }
 }
 
@@ -41,3 +47,6 @@ function schoolTimeCalc() {
     alert("You are not even in school, it's over");
   }
 }
+
+// Call the function to execute the code
+schoolTimeCalc();
