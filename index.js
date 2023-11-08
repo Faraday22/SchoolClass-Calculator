@@ -47,6 +47,3 @@ function schoolTimeCalc() {
     alert("You are not even in school, it's over");
   }
 }
-
-// Call the function to execute the code
-schoolTimeCalc();
