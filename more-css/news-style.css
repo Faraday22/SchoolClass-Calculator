@@ -1,9 +1,11 @@
 head{
     font-family: JetBrains Mono;
+    color:white;
 }
 
 body{
     font-family: JetBrains Mono;
+    background-color:#a9bab2;
 }
 
 /*All the links and stuff*/
