@@ -25,7 +25,7 @@ body{
 .Text-Body{
     border-style:inset;
     /*dark green is a filler*/
-    border-color:darkgreen;
+    border-color:grey;
     text-align: left;
     color:white;
 }
