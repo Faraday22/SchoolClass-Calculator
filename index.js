@@ -1,13 +1,10 @@
 // With the power of chat gpt 
 // this button will hopefully work!
 
-var startTime = 8.45; // Updated start time to 8.45 in the 24-hour format
-
+var startTime = 8.45;
 var date = new Date();
 var hours = date.getHours();
 var minutes = date.getMinutes();
-var amOrPm = hours >= 12 ? 'PM' : 'AM';
-hours = hours % 12 || 12; // Convert hours to 12-hour format
 var currentTime = hours + minutes / 100;
 
 const periods = [
