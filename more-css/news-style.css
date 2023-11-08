@@ -28,8 +28,13 @@ body{
     color:white;
 }
 
+#textUnderLineThing{
+  border-color:black;
+}
 
-/*Links at top of screen*/
+
+
+//Links at top of screen
 a:link{
     color:white;
     text-decoration:none;
@@ -44,5 +49,3 @@ a:link{
   a:active{
     color:white;
   }
-
-/*
