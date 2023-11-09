@@ -1,6 +1,9 @@
 // With the power of chat gpt 
 // this button will hopefully work!
 
+// With the power of chat gpt 
+// this button will hopefully work!
+
 var startTime = 8.45;
 var date = new Date();
 var hours = date.getHours();
@@ -44,6 +47,3 @@ function schoolTimeCalc() {
     return "You are not even in school, it's over";
   }
 }
-
-
-
