@@ -4,11 +4,9 @@
 // With the power of chat gpt 
 // this button will hopefully work!
 
-var startTime = 8.45;
+var startTime = 8.47;
 var date = new Date();
-var hours = date.getHours();
-var minutes = date.getMinutes();
-var currentTime = hours + minutes / 100;
+var currentTime = date.getHours() + date.getMinutes() / 100;
 
 const periods = [
   { time: 9.11, name: "advisory" },
@@ -25,25 +23,27 @@ const periods = [
 function timeUntilDone(timeLeft) {
   timeLeft = Math.round(timeLeft * 100) / 100;
   if (timeLeft >= 1) {
-    return timeLeft + " hours";
+    alert("You have " + timeLeft + " hours left");
   } else {
-    var minutesLeft = Math.round(timeLeft * 60);
-    return minutesLeft + " minutes";
+    alert("You have " + timeLeft * 60 + " minutes left");
   }
 }
 
 function schoolTimeCalc() {
   if (currentTime < startTime) {
-    return "School hasn't started yet";
+    alert("School hasn't started yet");
+    return;
   }
 
   for (let i = 0; i < periods.length; i++) {
     if (currentTime < periods[i].time) {
-      return "You are in " + periods[i].name + ". " + timeUntilDone(periods[i].time - currentTime) + " left.";
+      alert("You are in " + periods[i].name);
+      timeUntilDone(periods[i].time - currentTime);
+      break;
     }
   }
 
   if (currentTime >= periods[periods.length - 1].time) {
-    return "You are not even in school, it's over";
+    alert("You are not even in school, it's over");
   }
 }
