@@ -13,8 +13,15 @@ head{
   font-family: JetBrains Mono;
 }
 
+h2{
+  color:white;
+}
+h4{
+  color:white;
+}
+
 button {
-  align:center;
+  text-align:center;
   width:20%;
   height:70%;
   font-size:30;
@@ -27,23 +34,18 @@ button {
 
 
 body{
-  align:center;
-  background-color:#a9bab2;
+  background-color:#72827a;
   color:black;
   font-family: JetBrains Mono;
 }
 
 /*Dark theme(dark mode) if thats prefered*/
 @media (prefers-color-scheme: dark){
-  .topbar{
-    color:black;
-  }
   head{
     color:black;
   }
   
   body{
-    background-color:#758575;
     color:black;
   }
   ol{
@@ -76,7 +78,6 @@ body{
 /*Styles the text boxes*/
 ol {
   border-color:black;
-  align:center;
   border-style:double;
   width:35%;
 }

@@ -1,0 +1,54 @@
+head{
+    font-family: JetBrains Mono;
+    color:white;
+    background-color: #34493e;
+}
+
+h2{
+  color:white;
+}
+
+body{
+    font-family: JetBrains Mono;
+    background-color:#758575;
+}
+
+/*All the links and stuff*/
+.topbar{
+    color:white;
+    margin: 0 auto;
+    position:center;
+    font-size:30px;
+    text-indent:15px;
+    font-family: JetBrains Mono;
+  }
+
+.Text-Body{
+    border-style:inset;
+    /*dark green is a filler*/
+    border-color:grey;
+    text-align: left;
+    color:white;
+}
+
+#textUnderLineThing{
+  border-color:black;
+}
+
+
+
+/*Links at top of screen*/
+a:link{
+    color:white;
+    text-decoration:none;
+  }
+  a:visited{
+    color:white;
+    text-decoration:none;
+  }
+  a:hover{
+    color:black;
+  }
+  a:active{
+    color:white;
+  }

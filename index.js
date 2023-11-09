@@ -1,3 +1,9 @@
+// With the power of chat gpt 
+// this button will hopefully work!
+
+// With the power of chat gpt 
+// this button will hopefully work!
+
 var startTime = 8.47;
 var date = new Date();
 var currentTime = date.getHours() + date.getMinutes() / 100;
