@@ -25,10 +25,19 @@ body{
 
 .Text-Body{
     border-style:inset;
+    font-family: JetBrains Mono;
     /*dark green is a filler*/
     border-color:grey;
     text-align: left;
-    color:white;
+    color: white;
+    font-size: 18px;
+}
+
+.newsCreator{
+    font-weight: bold;
+    color: white;
+    font-family: JetBrains Mono;
+    font-size: 12px;
 }
 
 #textUnderLineThing{
