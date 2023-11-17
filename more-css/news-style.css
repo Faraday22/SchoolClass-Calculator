@@ -28,7 +28,13 @@ body{
     /*dark green is a filler*/
     border-color:grey;
     text-align: left;
-    color:white;
+    color: white;
+    font-size: 18px;
+}
+
+.newsCreator{
+    font-weight: bold;
+    color: white;
 }
 
 #textUnderLineThing{
