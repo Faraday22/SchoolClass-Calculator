@@ -22,7 +22,7 @@ const periods = [
 ];
 
 // Making Code Better on time
-let schoolActive = null;
+var schoolActive = null;
 
 if (currentTime > startTime) {
   schoolActive = true;
