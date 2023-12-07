@@ -26,10 +26,10 @@ let schoolActive = null;
 
 function hasSchoolStarted(){
    if (currentTime > startTime) {
-    schoolActive == true;
+    schoolActive = true;
     return;
   } else{
-   schoolActive == false; 
+   schoolActive = false; 
    alert("School hasn't started yet");
   } 
 }
