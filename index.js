@@ -24,15 +24,14 @@ const periods = [
 // Making Code Better on time
 let schoolActive = null;
 
-function hasSchoolStarted(){
-   if (currentTime > startTime) {
-    schoolActive = true;
-    return;
-  } else{
-   schoolActive = false; 
-   alert("School hasn't started yet");
-  } 
-}
+if (currentTime > startTime) {
+  schoolActive = true;
+  return;
+} else{
+  schoolActive = false; 
+  alert("School hasn't started yet");
+} 
+
 
 
 function isAdvistory(){
@@ -141,13 +140,6 @@ function findPeriod(){
 
 
 function schoolTimeCalc() {
-  /*
-  * Make sure to define what the true and false are for in hasSchoolStarted function
-  * The bool is to make the function check if school has started if tru then note that information
-  * 
-  * It may be helpful or not at the moment I'm not sure
-  */
-  hasSchoolStarted();
   if (schoolActive === true){
     findPeriod();
   } else {
