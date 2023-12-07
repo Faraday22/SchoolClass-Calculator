@@ -1,3 +1,5 @@
+import { halfDayPeriods } from "./more-javascript/halfDayScript"; 
+
 var timeLeft;
 var startTime = 8.47;
 var date = new Date();
@@ -18,26 +20,6 @@ const periods = [
   { time: 14.47, name: "seventh period" },
   { time: 15.40, name: "eighth period" }
 ];
-
-// Make alternative file for this half days
-
-/* import this into the next file when starting
-*  support half days
-*/
-
-/*
-const halfDayPeriods = [
-  { time: 9.17, name: "second period" },
-  { time: 9.50, name: "third period" },
-  { time: 10.23, name: "fourth period" },
-  { time: 10.56, name: "fifth period" },
-  { time: 11.29, name: "lunch" },
-  { time: 12.02, name: "sixth period" },
-  { time: 12.35, name: "seventh period" },
-  { time: 13.10, name: "eighth period" }
-  
-];
-*/
 
 // Making Code Better on time
 let schoolActive = null;
