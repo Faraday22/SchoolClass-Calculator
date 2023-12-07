@@ -1,4 +1,4 @@
-import { halfDayPeriods } from "./more-javascript/halfDayScript"; 
+ // import { halfDayPeriods } from "./more-javascript/halfDayScript"; 
 
 var timeLeft;
 var startTime = 8.47;
@@ -8,8 +8,6 @@ var date = new Date();
 * echo's that the button is useless due to sat/sun day
 */
 var currentTime = date.getHours() + date.getMinutes() / 100;
-alert("The current time is: ");
-alert(currentTime);
 
 const periods = [
   { time: 9.11, name: "advisory" },

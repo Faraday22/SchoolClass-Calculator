@@ -1,4 +1,4 @@
-export const halfDayPeriods = [
+/* export const halfDayPeriods = [
   { time: 9.17, name: "second period" },
   { time: 9.50, name: "third period" },
   { time: 10.23, name: "fourth period" },
@@ -9,3 +9,4 @@ export const halfDayPeriods = [
   { time: 13.10, name: "eighth period" }
   
 ];
+*/
