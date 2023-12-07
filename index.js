@@ -1,4 +1,4 @@
- // import { halfDayPeriods } from "./more-javascript/halfDayScript"; 
+// import { halfDayPeriods } from "./more-javascript/halfDayScript"; 
 
 var timeLeft;
 var startTime = 8.47;
@@ -26,11 +26,11 @@ let schoolActive = null;
 
 function hasSchoolStarted(){
    if (currentTime > startTime) {
-    alert("School hasn't started yet");
-    schoolActive = false;
+    schoolActive == true;
     return;
   } else{
-   schoolActive = true; 
+   schoolActive == false; 
+   alert("School hasn't started yet");
   } 
 }
 
@@ -139,7 +139,7 @@ function schoolTimeCalc() {
   * It may be helpful or not at the moment I'm not sure
   */
   hasSchoolStarted();
-  if (schoolActive == true){
+  if (schoolActive === true){
     findPeriod();
   } else {
     return;
