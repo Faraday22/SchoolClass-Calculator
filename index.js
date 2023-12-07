@@ -24,6 +24,8 @@ const periods = [
 /* import this into the next file when starting
 *  support half days
 */
+
+/*
 const halfDayPeriods = [
   { time: 9.17, name: "second period" },
   { time: 9.50, name: "third period" },
@@ -35,13 +37,13 @@ const halfDayPeriods = [
   { time: 13.10, name: "eighth period" }
   
 ];
-
+*/
 
 // Making Code Better on time
 let schoolActive = null;
 
 function hasSchoolStarted(){
-   if (currentTime < startTime) {
+   if (currentTime > startTime) {
     alert("School hasn't started yet");
     schoolActive = false;
     return;
