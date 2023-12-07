@@ -143,7 +143,7 @@ function findPeriod(){
   isSixth();
   isSeventh();
   isEigth();
-  isSchoolOver;
+  isSchoolOver();
 }
 
 
