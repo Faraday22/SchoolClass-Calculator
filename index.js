@@ -43,7 +43,7 @@ function isAdvistory(){
 }
 
 function isSecond(){
-  if (currentTime >= periods.time[0]){
+  if (currentTime >= periods[0].time){
     alert("Your in " + periods[1].name);
     timeLeft = periods[1].time - currentTime;
     alert("There is: " + timeLeft + " time left");
