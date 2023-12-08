@@ -29,7 +29,6 @@ if (currentTime > startTime) {
 } else{
     schoolActive = false; 
     alert("School hasn't started yet");
-    return;
 } 
 
 
