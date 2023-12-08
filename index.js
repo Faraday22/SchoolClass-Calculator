@@ -26,12 +26,12 @@ var schoolActive = null;
 
 if (currentTime > startTime) {
   schoolActive = true;
-} else{
+} else if (currentTime > periods[8].time){
     schoolActive = false; 
     alert("School hasn't started yet");
+} else{
+  console.log("How tf was this printed??");
 } 
-
-
 
 function isAdvistory(){
     if (currentTime <= periods[0].time){
