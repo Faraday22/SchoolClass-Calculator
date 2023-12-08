@@ -21,3 +21,7 @@ may not work for you.
 # How to report a bug
 If you find any errors please post
 in the Issues category at the top of the screen, next to code.
+
+# Community
+Join the discord :D
+https://discord.gg/nPnGp6wHV5
