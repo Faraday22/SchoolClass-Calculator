@@ -27,7 +27,6 @@ var schoolActive = null;
 // is school active / has it started
 if (currentTime >= periods[8].time){
     schoolActive = schoolActive === null ? false : schoolActive; 
-    alert("School hasn't started yet"); 
 } else if (currentTime >= startTime){
     schoolActive = schoolActive === null ? true : schoolActive; 
 } else{
