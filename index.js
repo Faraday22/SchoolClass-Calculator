@@ -9,25 +9,27 @@ var date = new Date();
 */
 var currentTime = date.getHours() + date.getMinutes() / 100;
 
+//var IsWeekend = date.getDay;
+
 const periods = [
-  { time: 9.11, name: "advisory" },
-  { time: 9.57, name: "second period" },
-  { time: 10.48, name: "third period" },
-  { time: 11.39, name: "fourth period" },
-  { time: 12.30, name: "fifth period" },
-  { time: 13.05, name: "lunch" },
-  { time: 13.56, name: "sixth period" },
-  { time: 14.47, name: "seventh period" },
-  { time: 15.40, name: "eighth period" }
+/*0*/ { time: 9.11, name: "advisory" },
+/*1*/ { time: 9.57, name: "second period" },
+/*2*/ { time: 10.48, name: "third period" },
+/*3*/ { time: 11.39, name: "fourth period" },
+/*4*/ { time: 12.30, name: "fifth period" },
+/*5*/ { time: 13.05, name: "lunch" },
+/*6*/ { time: 13.56, name: "sixth period" },
+/*7*/ { time: 14.47, name: "seventh period" },
+/*8*/ { time: 15.40, name: "eighth period" }
 ];
 
 var schoolActive = null;
 // is school active / has it started
 if (currentTime >= periods[8].time){
-    schoolActive = false; 
+    schoolActive = schoolActive === null ? false : schoolActive; 
     alert("School hasn't started yet"); 
 } else if (currentTime >= startTime){
-  schoolActive = true; 
+    schoolActive = schoolActive === null ? true : schoolActive; 
 } else{
   console.log("How tf was this printed??");
 } 
