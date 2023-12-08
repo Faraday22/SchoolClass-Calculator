@@ -28,7 +28,6 @@ if (currentTime >= startTime) {
 } else if (currentTime >= periods[8].time){
     schoolActive = false; 
     alert("School hasn't started yet");
-    return;
 } else{
   console.log("How tf was this printed??");
 } 
