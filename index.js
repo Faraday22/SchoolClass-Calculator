@@ -21,14 +21,14 @@ const periods = [
   { time: 15.40, name: "eighth period" }
 ];
 
-// Making Code Better on time
 var schoolActive = null;
 
-if (currentTime > startTime) {
+if (currentTime >= startTime) {
   schoolActive = true;
-} else if (currentTime > periods[8].time){
+} else if (currentTime >= periods[8].time){
     schoolActive = false; 
     alert("School hasn't started yet");
+    return;
 } else{
   console.log("How tf was this printed??");
 } 
