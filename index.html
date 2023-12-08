@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en"></html>
 <head>
   <link rel="stylesheet" href="index.css"/>
+  <link rel="stylesheet" href="more-css/top-bar.css">
   <script src="index.js"></script>
+  <script src="more-javascript/topRowButtons.js"></script>
   <!-- Actual code-->
   <title>Class-Calc</title>
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <table class="topbar">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <tr>
-      <th><a href="https://faraday22.github.io/SchoolClass-Calculator/more-html/info.html">Information</a></th>
+      <th><button class="topbar" onclick="buttonToInfo()">Information</button></th>
       <th>|</th>
-      <th><a href="https://faraday22.github.io/SchoolClass-Calculator/">Home</a></th>
+      <th><button class="topbar" onclick="buttonToHome()">Home</button></th>
       <th>|</th>
-      <th><a href="https://github.com/Faraday22/SchoolClass-Calculator">Github</a></th>
+      <th><button class="topbar" onclick="buttonToGithub()">Github</button></th>
       <th>|</th>
-      <th><a href="https://faraday22.github.io/SchoolClass-Calculator/more-html/news.html">News</a></th>
+      <th><button class="topbar" onclick="buttonToNews()">News</button></th>
   </tr></table>
   <hr id="textUnderLineThing">
 <br>
@@ -31,6 +31,6 @@
       Please Enjoy the website :D
     </p>
   </ol>
-  <button onclick="schoolTimeCalc()">Calculate Time</button>
+  <button class="buttonCalc" onclick="schoolTimeCalc()">Calculate Time</button>
   <br>
 </body>

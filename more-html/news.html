@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <head>
   <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-  <!-- Update when new css file is made -->
   <link rel="stylesheet" href="../more-css/news-style.css">
+  <link rel="stylesheet" href="../more-css/top-bar.css">
+  <script src="../more-javascript/topRowButtons.js"></script>
 
   
   <title>News</title>
-    <!--Top Bar Thingy-->
-    <table>
-        <tr class="topbar">
-          <th><a href="https://faraday22.github.io/SchoolClass-Calculator/more-html/info.html">Information</a></th>
-          <th>|</th>
-          <th><a href="https://faraday22.github.io/SchoolClass-Calculator/">Home</a></th>
-          <th>|</th>
-          <th><a href="https://github.com/Faraday22/SchoolClass-Calculator">Github</a></th>
-          <th>|</th>
-          <th><a href="https://faraday22.github.io/SchoolClass-Calculator/more-html/news.html">News</a></th>
-      </tr></table>
+    <table class="topbar">
+    <tr>
+      <th><button class="topbar" onclick="buttonToInfo()">Information</button></th>
+      <th class="topbar">|</th>
+      <th><button class="topbar" onclick="buttonToHome()">Home</button></th>
+      <th class="topbar" >|</th>
+      <th><button class="topbar" onclick="buttonToGithub()">Github</button></th>
+      <th class="topbar" >|</th>
+      <th><button class="topbar" onclick="buttonToNews()">News</button></th>
+  </tr></table>
       <hr id="textUnderLineThing">
       <br>
 </head>

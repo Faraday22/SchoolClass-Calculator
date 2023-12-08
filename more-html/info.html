@@ -3,22 +3,21 @@
 <head>
   <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
   <link rel="stylesheet" href="../index.css"/>
+  <link rel="stylesheet" href="../more-css/news-style.css">
+  <script src="../more-javascript/topRowButtons.js"></script>
+
   <title>Info</title>
 </head>
 <body>
-
-  <!-- Top Bar Thingy -->
-  <table class="topbar" style="font-family: JetBrains Mono;">
-    <tr>
-      <th><a href="https://faraday22.github.io/SchoolClass-Calculator/more-html/info.html">Information</a></th>
+  <table><tr>
+      <th><button class="topbar" onclick="buttonToInfo()">Information</button></th>
       <th>|</th>
-      <th><a href="https://faraday22.github.io/SchoolClass-Calculator/">Home</a></th>
+      <th><button class="topbar" onclick="buttonToHome()">Home</button></th>
       <th>|</th>
-      <th><a href="https://github.com/Faraday22/SchoolClass-Calculator">Github</a></th>
+      <th><button class="topbar" onclick="buttonToGithub()">Github</button></th>
       <th>|</th>
-      <th><a href="https://faraday22.github.io/SchoolClass-Calculator/more-html/news.html">News</a></th>
-    </tr>
-  </table>
+      <th><button class="topbar" onclick="buttonToNews()">News</button></th>
+  </tr></table>
 
   <hr id="textUnderLineThing">
 
@@ -26,12 +25,12 @@
     About This
   </h1>
   <ol>
-    <p style="font-family: JetBrains Mono;">
+    <p style="font-family: JetBrains Mono">
       This is a self-hosted website not maintained by the school. Outside the jurisdiction of the school. This is a free open-source project to help other students.
     </p>
   </ol>
   
-  <h2 style="font-family: JetBrains Mono;">
+  <h2 style="font-family: JetBrains Mono">
     How to use:
   </h2>
   <ol>
@@ -45,7 +44,7 @@
   <hr id="textUnderLineThing">
 
   <h3 class="CreditsLink">
-    <a href="https://faraday22.github.io/SchoolClass-Calculator/more-html/credits.html">Credits</a>
+    <button class="topbar" onclick="buttonToCredits()">Credits</button>
   </h3>
 </body>
 </html>

@@ -1,13 +1,3 @@
-/*All the links and stuff*/
-.topbar{
-  color:white;
-  margin: 0 auto;
-  position:center;
-  font-size:30px;
-  text-indent:15px;
-  font-family: JetBrains Mono;
-}
-
 head{
   color:white;
   font-family: JetBrains Mono;
@@ -20,7 +10,7 @@ h4{
   color:white;
 }
 
-button {
+.buttonCalc {
   text-align:center;
   width:20%;
   height:70%;
@@ -51,21 +41,6 @@ body{
     color:white;
   }
 
-  a:link{
-    color:black;
-    text-decoration:none;
-  }
-  a:visited{
-    color:black;
-    text-decoration:none;
-  }
-  a:hover{
-    color:white;
-  }
-  a:active{
-    color:dark;
-  }
-
   #textUnderLineThing{
     border-color:black;
   }
@@ -85,22 +60,6 @@ ol {
   border-color:black;
 }
 
-
-/*Links at top of screen*/
-a:link{
-  color:white;
-  text-decoration:none;
-}
-a:visited{
-  color:white;
-  text-decoration:none;
-}
-a:hover{
-  color:black;
-}
-a:active{
-  color:white;
-}
 
 /*Credit Link at bottom of screen*/
 .CreditsLink{
