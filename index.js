@@ -22,12 +22,12 @@ const periods = [
 ];
 
 var schoolActive = null;
-
-if (currentTime >= startTime) {
-  schoolActive = true;
-} else if (currentTime >= periods[8].time){
+// is school active / has it started
+if (currentTime >= periods[8].time){
     schoolActive = false; 
-    alert("School hasn't started yet");
+    alert("School hasn't started yet"); 
+} else if (currentTime >= startTime){
+  schoolActive = true; 
 } else{
   console.log("How tf was this printed??");
 } 
@@ -138,5 +138,7 @@ function findPeriod(){
 function schoolTimeCalc() {
   if (schoolActive === true){
     findPeriod();
+  } else{
+    alert("Your not even in school");
   }
 }
