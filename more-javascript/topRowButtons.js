@@ -3,19 +3,15 @@
 */
 
 function buttonToNews(){
-    location.pathname("/more-html/news.html");
-}
-
-function buttonToCredits(){
-    location.pathname("/more-html/credits.html");
+    window.location.href = 'https://faraday22.github.io/SchoolClass-Calculator/more-html/news.html';
 }
 
 function buttonToInfo(){
-    location.pathname("/more-html/info.html");
+    window.location.href = 'https://faraday22.github.io/SchoolClass-Calculator/more-html/info.html';
 }
 
 function buttonToHome(){
-    location.pathname("index.html");
+    window.location.href = 'https://faraday22.github.io/SchoolClass-Calculator/index.html';
 }
 
 function buttonToGithub(){
@@ -23,5 +19,5 @@ function buttonToGithub(){
 }
 
 function buttonToCredits(){
-    location.pathname("/more-html/credits.html");
+    window.location.href = 'https://faraday22.github.io/SchoolClass-Calculator/more-html/credits.html';
 }
