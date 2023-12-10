@@ -52,8 +52,13 @@ function countDown(){
 }
 
 export function checkTime(){
-
-    if (hour === 3 && minute === 39 && second === 50) {
+    if(hour > 3){
+        return; 
+    }
+    else if(hour === 3 && minute < 39){
+        return;
+    }
+    else if (hour === 3 && minute === 39 && second === 50) {
         countDown();
     } else {
         checkTime(); 
