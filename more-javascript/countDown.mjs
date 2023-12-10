@@ -53,15 +53,17 @@ function countDown(){
 
 export function checkTime(){
     if(hour > 3){
+        console.log("To late");
         return; 
     }
     else if(hour === 3 && minute < 39){
+        console.log("To early");
         return;
     }
-    else if (hour === 3 && minute === 39 && second === 50) {
+    else if (hour === 3 && minute === 39 && second >= 50) {
         countDown();
     } else {
-        checkTime(); 
+        //checkTime(); 
     }
 
 }
