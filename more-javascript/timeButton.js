@@ -1,4 +1,4 @@
-// import { halfDayPeriods } from "./more-javascript/halfDayScript"; 
+// import { halfDayPeriods } from "halfDayScript"; 
 
 var timeLeft = null;
 var startTime = 8.47;
