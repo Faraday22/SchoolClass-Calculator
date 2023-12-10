@@ -10,8 +10,7 @@ var minute = date.getMinutes();
 var second = date.getSeconds();
 
 
-var time = date.getHours() + date.getMinutes() + date.getSeconds() / 100;
-
+/*
 if (hour > 1){
   var HourT = "Hours ";
 } else{
@@ -31,8 +30,10 @@ if (second > 1){
 }
 
 
-// may need
-// var formatedTime = hour + HourT + minute + MinuteT + second + SecondT;
+ may need
+ var formatedTime = hour + HourT + minute + MinuteT + second + SecondT;
+*/
+
 
 var timeToCount = 0;
 
