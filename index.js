@@ -1,1 +1,3 @@
-// going to make code mostly called by this maybe
+import { checkTime } from './more-javascript/countDown.js';
+
+checkTime(); 

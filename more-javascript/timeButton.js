@@ -11,21 +11,10 @@ var currentTime = date.getHours() + date.getMinutes() / 100;
 
 //var IsWeekend = date.getDay;
 
-const periods = [
-/*0*/ { time: 9.11, name: "advisory" },
-/*1*/ { time: 9.57, name: "second period" },
-/*2*/ { time: 10.48, name: "third period" },
-/*3*/ { time: 11.39, name: "fourth period" },
-/*4*/ { time: 12.30, name: "fifth period" },
-/*5*/ { time: 13.05, name: "lunch" },
-/*6*/ { time: 13.56, name: "sixth period" },
-/*7*/ { time: 14.47, name: "seventh period" },
-/*8*/ { time: 15.40, name: "eighth period" }
-];
 
 var schoolActive = null;
 // is school active / has it started
-if (currentTime >= periods[8].time){
+if (currentTime <= 8.47){
     schoolActive = schoolActive === null ? false : schoolActive; 
 } else if (currentTime >= startTime){
     schoolActive = schoolActive === null ? true : schoolActive; 
@@ -34,7 +23,12 @@ if (currentTime >= periods[8].time){
 } 
 
 function isAdvistory(){
-    if (currentTime <= periods[0].time){
+
+    /* write this so if the current time is
+    *  more than 8 47 and less than 9 11
+    *  etc just use schedule to find out
+    */ 
+    if (currentTime <= [0].time){
       alert("Your in " + periods[0].name);
       timeLeft = periods[0].time - currentTime;
       alert("There is: " + timeLeft + " time left");
