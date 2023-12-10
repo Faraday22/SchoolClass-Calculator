@@ -13,4 +13,6 @@ currently being supported with security updates.
 
 - List how this was found
 - Extra Details
-- CVE 
+- CVE
+
+(This is kind of a filler for community standards :p)
