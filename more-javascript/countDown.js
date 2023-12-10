@@ -37,16 +37,18 @@ if (second > 1){
 
 var timeToCount = 0;
 
-// sleeps / waits one second
-var sleepOne = setTimeout(1000);
 
 function countDown(){
     // while less than or equal to
-    while (timeToCount <= 10){
+    if (timeToCount <= 10){
         alert("Time till free: " + timeToCount);
         timeToCount++;
         sleepOne;        
-    } 
+        setTimeout(countDown, 1000);
+    }
+    else{
+        console.log("Free now!  :D ");
+    }
 }
 
 export function checkTime(){
