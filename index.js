@@ -1,3 +1,3 @@
-import { checkTime } from "more-javascript/countDown.mjs";
+import { checkTime } from "./more-javascript/countDown.mjs";
 
 checkTime(); 
