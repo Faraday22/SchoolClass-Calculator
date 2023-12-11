@@ -11,25 +11,6 @@ var second = date.getSeconds();
 
 
 /*
-if (hour > 1){
-  var HourT = "Hours ";
-} else{
-  var HourT = "Hour ";
-}
-
-if (minute > 1){
-  var MinuteT = "Minutes ";
-} else{
-  var MinuteT = "Minute ";
-}
-
-if (second > 1){
-  var SecondT = "Seconds ";
-} else{
-  var SecondT = "Second ";
-}
-
-
  may need
  var formatedTime = hour + HourT + minute + MinuteT + second + SecondT;
 */
@@ -52,15 +33,15 @@ function countDown(){
 }
 
 export function checkTime(){
-    if(hour > 3){
+    if(hour > 15){
         console.log("To late");
         return; 
     }
-    else if(hour === 3 && minute < 39){
+    else if(hour <= 15 && minute < 39){
         console.log("To early");
         return;
     }
-    else if (hour === 3 && minute === 39 && second >= 50) {
+    else if (hour === 15 && minute === 39 && second >= 50) {
         countDown();
     } else {
         //checkTime(); 
