@@ -1,19 +1,13 @@
-// This file is in the works and hasn't been called yet
+// this file is in beta
 
-// This file is not production ready nor test basically
+
+
 
 var date = new Date();
-// trying to find out what this labels 3:39:50 as
 
 var hour = date.getHours();
 var minute = date.getMinutes();
 var second = date.getSeconds();
-
-
-/*
- may need
- var formatedTime = hour + HourT + minute + MinuteT + second + SecondT;
-*/
 
 
 var timeToCount = 0;

@@ -1,7 +1,4 @@
-/* Plan to use this file for making the top
-*  row not links to the other files but javascript buttons
-*/
-
+// All the buttons at the top of the web page
 function buttonToNews(){
     window.location.href = 'https://faraday22.github.io/SchoolClass-Calculator/more-html/news.html';
 }
