@@ -146,3 +146,9 @@ function schoolTimeCalc() {
         alert("Your not even in school");
     }
 }
+
+
+/*
+Make it where you don't need to refresh to run
+the button again.
+*/
