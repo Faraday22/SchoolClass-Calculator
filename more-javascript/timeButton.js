@@ -135,4 +135,3 @@ function schoolTimeCalc() {
         alert("Your not even in school");
     }
 }
-schoolTimeCalc();
