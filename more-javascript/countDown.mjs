@@ -24,7 +24,7 @@ function countDown(){
     if (timeToCount <= 10){
         alert("Time till free: " + timeToCount);
         timeToCount++;
-        sleepOne;        
+        // delays by one second
         setTimeout(countDown, 1000);
     }
     else{
