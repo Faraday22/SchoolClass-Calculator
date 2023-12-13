@@ -30,7 +30,7 @@ else {
     console.log("How tf was this printed??");
 }
 function isAdvistory() {
-    if (currentTime > startTime && currentTime > endOfAdvisory) {
+    if (currentTime >= startTime && currentTime < endOfAdvisory) {
         alert("Your in advisory");
         timeLeft = 9.11 - currentTime;
         alert("There is: " + timeLeft + " time left");
@@ -38,7 +38,7 @@ function isAdvistory() {
     }
 }
 function isSecond() {
-    if (currentTime > endOfAdvisory && currentTime > endOfSecond) {
+    if (currentTime >= endOfAdvisory && currentTime < endOfSecond) {
         alert("Your in second period");
         timeLeft = endOfSecond - currentTime;
         alert("There is: " + timeLeft + " time left");
@@ -46,7 +46,7 @@ function isSecond() {
     }
 }
 function isThird() {
-    if (currentTime > endOfSecond && currentTime > endOfThird) {
+    if (currentTime >= endOfSecond && currentTime < endOfThird) {
         alert("Your in third period");
         timeLeft = endOfThird - currentTime;
         alert("There is: " + timeLeft + " time left");
@@ -54,7 +54,7 @@ function isThird() {
     }
 }
 function isFourth() {
-    if (currentTime > endOfThird && currentTime > endOfFourth) {
+    if (currentTime >= endOfThird && currentTime < endOfFourth) {
         alert("Your in fourth period");
         timeLeft = endOfFourth - currentTime;
         alert("There is: " + timeLeft + " time left");
@@ -62,7 +62,7 @@ function isFourth() {
     }
 }
 function isFifth() {
-    if (currentTime > endOfFourth && currentTime > endOfFifth) {
+    if (currentTime >= endOfFourth && currentTime < endOfFifth) {
         alert("Your in fifth period");
         timeLeft = endOfFifth - currentTime;
         alert("There is: " + timeLeft + " time left");
@@ -70,13 +70,13 @@ function isFifth() {
     }
 }
 function isLunch() {
-    if (currentTime > endOfFifth && currentTime > endOfLunch) {
+    if (currentTime >= endOfFifth && currentTime < endOfLunch) {
         const easteregg = Math.floor(Math.random() * 100) + 1;
         if (easteregg == 52) {
             alert("Your in munchy munch time");
         }
         else {
-            alert("Your in  period");
+            alert("Your at lunch");
         }
         timeLeft = endOfSixth - currentTime;
         alert("There is: " + timeLeft + " time left");
@@ -84,7 +84,7 @@ function isLunch() {
     }
 }
 function isSixth() {
-    if (currentTime > endOfLunch && currentTime > endOfSixth) {
+    if (currentTime >= endOfLunch && currentTime < endOfSixth) {
         alert("Your in sixth period");
         timeLeft = endOfSixth - currentTime;
         alert("There is: " + timeLeft + " time left");
@@ -92,7 +92,7 @@ function isSixth() {
     }
 }
 function isSeventh() {
-    if (currentTime > endOfSixth && currentTime > endOfSeventh) {
+    if (currentTime >= endOfSixth && currentTime < endOfSeventh) {
         alert("Your in seventh period");
         timeLeft = endOfSeventh - currentTime;
         alert("There is: " + timeLeft + " time left");
@@ -100,7 +100,7 @@ function isSeventh() {
     }
 }
 function isEigth() {
-    if (currentTime > endOfSeventh && currentTime > endOfEigth) {
+    if (currentTime >= endOfSeventh && currentTime < endOfEigth) {
         alert("Your in eight period");
         timeLeft = endOfEigth - currentTime;
         alert("There is: " + timeLeft + " time left");
