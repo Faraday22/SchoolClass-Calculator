@@ -33,7 +33,8 @@ function isAdvistory() {
     if (currentTime >= startTime && currentTime < endOfAdvisory) {
         alert("Your in advisory");
         timeLeft = 9.11 - currentTime;
-        alert("There is: " + timeLeft + " time left");
+        // to fixed rounds decimals
+        alert("There is: " + timeLeft.toFixed(2) + " time left");
         return;
     }
 }
@@ -41,7 +42,7 @@ function isSecond() {
     if (currentTime >= endOfAdvisory && currentTime < endOfSecond) {
         alert("Your in second period");
         timeLeft = endOfSecond - currentTime;
-        alert("There is: " + timeLeft + " time left");
+        alert("There is: " + timeLeft.toFixed(2) + " time left");
         return;
     }
 }
@@ -49,7 +50,7 @@ function isThird() {
     if (currentTime >= endOfSecond && currentTime < endOfThird) {
         alert("Your in third period");
         timeLeft = endOfThird - currentTime;
-        alert("There is: " + timeLeft + " time left");
+        alert("There is: " + timeLeft.toFixed(2) + " time left");
         return;
     }
 }
@@ -57,7 +58,7 @@ function isFourth() {
     if (currentTime >= endOfThird && currentTime < endOfFourth) {
         alert("Your in fourth period");
         timeLeft = endOfFourth - currentTime;
-        alert("There is: " + timeLeft + " time left");
+        alert("There is: " + timeLeft.toFixed(2) + " time left");
         return;
     }
 }
@@ -65,7 +66,7 @@ function isFifth() {
     if (currentTime >= endOfFourth && currentTime < endOfFifth) {
         alert("Your in fifth period");
         timeLeft = endOfFifth - currentTime;
-        alert("There is: " + timeLeft + " time left");
+        alert("There is: " + timeLeft.toFixed(2) + " time left");
         return;
     }
 }
@@ -79,7 +80,7 @@ function isLunch() {
             alert("Your at lunch");
         }
         timeLeft = endOfSixth - currentTime;
-        alert("There is: " + timeLeft + " time left");
+        alert("There is: " + timeLeft.toFixed(2) + " time left");
         return;
     }
 }
@@ -87,7 +88,7 @@ function isSixth() {
     if (currentTime >= endOfLunch && currentTime < endOfSixth) {
         alert("Your in sixth period");
         timeLeft = endOfSixth - currentTime;
-        alert("There is: " + timeLeft + " time left");
+        alert("There is: " + timeLeft.toFixed(2) + " time left");
         return;
     }
 }
@@ -95,7 +96,7 @@ function isSeventh() {
     if (currentTime >= endOfSixth && currentTime < endOfSeventh) {
         alert("Your in seventh period");
         timeLeft = endOfSeventh - currentTime;
-        alert("There is: " + timeLeft + " time left");
+        alert("There is: " + timeLeft.toFixed(2) + " time left");
         return;
     }
 }
@@ -103,7 +104,7 @@ function isEigth() {
     if (currentTime >= endOfSeventh && currentTime < endOfEigth) {
         alert("Your in eight period");
         timeLeft = endOfEigth - currentTime;
-        alert("There is: " + timeLeft + " time left");
+        alert("There is: " + timeLeft.toFixed(2) + " time left");
         return;
     }
 }
