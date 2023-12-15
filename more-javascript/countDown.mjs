@@ -21,9 +21,6 @@ function countDown(){
         // delays by one second
         setTimeout(countDown, 1000);
     }
-    else{
-        console.log("Free now!  :D ");
-    }
 }
 
 export function checkTime(){
@@ -34,11 +31,9 @@ export function checkTime(){
     else if(hour <= 15 && minute < 39){
         console.log("To early");
         return;
+    } else{
+        while (hour === 15 && minute === 39 && second >= 50) {
+            countDown();
+        }
     }
-    else if (hour === 15 && minute === 39 && second >= 50) {
-        countDown();
-    } else {
-        //checkTime(); 
-    }
-
 }
